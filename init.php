@@ -27,5 +27,5 @@ $db = new
 
 $button = new Button ('VK);
 $button->icon = 'vk';
-$button->link('https://vk.com/');
+//$button->link('https://vk.com/');
 $app->layout->add($button);

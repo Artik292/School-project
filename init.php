@@ -23,4 +23,4 @@ $db = new
         }
 
 
-$layout->leftMenu->addItem(['VK','icon'=>'vk','link'=>'http://vk.com/']);
+//$layout->leftMenu->addItem(['VK','icon'=>'vk','link'=>'http://vk.com/']);

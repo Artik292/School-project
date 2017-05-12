@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1
--- Время создания: Апр 13 2017 г., 15:35
+-- Время создания: Апр 20 2017 г., 16:50
 -- Версия сервера: 10.1.21-MariaDB
 -- Версия PHP: 5.6.30
 
@@ -31,7 +31,7 @@ CREATE TABLE `friends` (
   `name` text NOT NULL,
   `surname` text NOT NULL,
   `phone_number` text NOT NULL,
-  `e-mail` text NOT NULL
+  `email` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------

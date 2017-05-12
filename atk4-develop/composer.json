@@ -1,0 +1,12 @@
+{
+    "name": "atk4/atk4",
+    "type": "library",
+    "version": "4.3.2",
+    "license": "MIT",
+    "keywords": ["framework","atk4"],
+    "homepage": "https://agiletoolkit.org/",
+    "autoload": {
+        "psr-0": {"": "lib/"},
+        "files": ["/lib/static.php"]
+    }
+}

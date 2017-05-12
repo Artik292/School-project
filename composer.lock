@@ -56,16 +56,16 @@
         },
         {
             "name": "atk4/data",
-            "version": "1.1.15",
+            "version": "1.1.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/atk4/data.git",
-                "reference": "b6224b8adb90681a43cd449ba07d738d5f2c75b7"
+                "reference": "c6674bccb565b93db0f90ea142a59f700038f471"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/atk4/data/zipball/b6224b8adb90681a43cd449ba07d738d5f2c75b7",
-                "reference": "b6224b8adb90681a43cd449ba07d738d5f2c75b7",
+                "url": "https://api.github.com/repos/atk4/data/zipball/c6674bccb565b93db0f90ea142a59f700038f471",
+                "reference": "c6674bccb565b93db0f90ea142a59f700038f471",
                 "shasum": ""
             },
             "require": {
@@ -109,7 +109,7 @@
                 "query",
                 "sql"
             ],
-            "time": "2017-04-13T01:25:12+00:00"
+            "time": "2017-04-28T09:00:39+00:00"
         },
         {
             "name": "atk4/dsql",
@@ -167,26 +167,26 @@
         },
         {
             "name": "atk4/ui",
-            "version": "1.1.0",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/atk4/ui.git",
-                "reference": "096099c8901acef31afa15f106d0e6ca6bb3bae0"
+                "reference": "a93bf2bdc45643af57e2259745b8e2e6f6fe9688"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/atk4/ui/zipball/096099c8901acef31afa15f106d0e6ca6bb3bae0",
-                "reference": "096099c8901acef31afa15f106d0e6ca6bb3bae0",
+                "url": "https://api.github.com/repos/atk4/ui/zipball/a93bf2bdc45643af57e2259745b8e2e6f6fe9688",
+                "reference": "a93bf2bdc45643af57e2259745b8e2e6f6fe9688",
                 "shasum": ""
             },
             "require": {
                 "atk4/core": "^1.2",
                 "atk4/data": "^1.1",
+                "fzaninotto/faker": "*",
                 "php": ">=5.6.0"
             },
             "require-dev": {
                 "codeclimate/php-test-reporter": "*",
-                "fzaninotto/faker": "*",
                 "phpunit/phpunit": "<6"
             },
             "type": "library",
@@ -221,7 +221,55 @@
                 "web",
                 "widget"
             ],
-            "time": "2017-04-13T01:54:20+00:00"
+            "time": "2017-04-28T22:04:23+00:00"
+        },
+        {
+            "name": "fzaninotto/faker",
+            "version": "v1.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fzaninotto/Faker.git",
+                "reference": "44f9a286a04b80c76a4e5fb7aad8bb539b920123"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/44f9a286a04b80c76a4e5fb7aad8bb539b920123",
+                "reference": "44f9a286a04b80c76a4e5fb7aad8bb539b920123",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.3.3|^7.0"
+            },
+            "require-dev": {
+                "ext-intl": "*",
+                "phpunit/phpunit": "~4.0",
+                "squizlabs/php_codesniffer": "~1.5"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": []
+            },
+            "autoload": {
+                "psr-4": {
+                    "Faker\\": "src/Faker/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "François Zaninotto"
+                }
+            ],
+            "description": "Faker is a PHP library that generates fake data for you.",
+            "keywords": [
+                "data",
+                "faker",
+                "fixtures"
+            ],
+            "time": "2016-04-29T12:21:54+00:00"
         }
     ],
     "packages-dev": [],

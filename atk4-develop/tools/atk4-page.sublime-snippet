@@ -1,0 +1,27 @@
+<snippet>
+	<content><![CDATA[
+<?php
+/**
+ * Page class
+ */
+class page_${1:$TM_FILENAME} extends ${2:Page}
+{
+    public $title='${3}';
+
+    /**
+     * Initialize the page
+     *
+     * @return void
+     */
+	function init()
+    {
+		parent::init();
+		$4
+	}
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>page</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

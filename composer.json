@@ -1,6 +1,6 @@
 {
     "require": {
-        "atk4\/atk4":"develop"
+       "atk4\/atk4":"4.4.x-dev"
     },
     "autoload":{
         "psr-0":{

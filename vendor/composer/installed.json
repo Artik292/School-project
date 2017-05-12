@@ -273,5 +273,68 @@
             "web",
             "widget"
         ]
+    },
+    {
+        "name": "atk4/atk4",
+        "version": "4.4.x-dev",
+        "version_normalized": "4.4.9999999.9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/atk4/atk4.git",
+            "reference": "6acbe000cd88ddf1084aa9a4c5e5f65130d66f9e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/atk4/atk4/zipball/6acbe000cd88ddf1084aa9a4c5e5f65130d66f9e",
+            "reference": "6acbe000cd88ddf1084aa9a4c5e5f65130d66f9e",
+            "shasum": ""
+        },
+        "require": {
+            "atk4/data": "^1.1",
+            "atk4/ui": "*"
+        },
+        "require-dev": {
+            "codeclimate/php-test-reporter": "*",
+            "phpunit/phpunit": "4.*"
+        },
+        "time": "2017-04-18T09:51:11+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "": "lib/"
+            },
+            "files": [
+                "/lib/static.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Romans Malinovskis",
+                "email": "romans@agiletoolkit.org",
+                "homepage": "https://nearly.guru/"
+            }
+        ],
+        "description": "Agile UI - User Interface Component Library",
+        "homepage": "https://agiletoolkit.org/",
+        "keywords": [
+            "Agile",
+            "atk4",
+            "button",
+            "crud",
+            "form",
+            "framework",
+            "gadget",
+            "generator",
+            "grid",
+            "render",
+            "ui",
+            "web",
+            "widget"
+        ]
     }
 ]

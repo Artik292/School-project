@@ -6,6 +6,10 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit34a16271f4a9be0c68495040a215b3d1
 {
+    public static $files = array (
+        'c5e08fc8ba5fbedece65fe3c0d6c543d' => __DIR__ . '/..' . '/atk4/atk4/lib/static.php',
+    );
+
     public static $prefixLengthsPsr4 = array (
         'a' => 
         array (
@@ -45,6 +49,7 @@ class ComposerStaticInit34a16271f4a9be0c68495040a215b3d1
 
     public static $fallbackDirsPsr0 = array (
         0 => __DIR__ . '/../..' . '/lib',
+        1 => __DIR__ . '/..' . '/atk4/atk4/lib',
     );
 
     public static function getInitializer(ClassLoader $loader)

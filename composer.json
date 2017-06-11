@@ -1,10 +1,9 @@
 {
-    "require": {
-       "atk4\/atk4":"4.4.x-dev"
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {"": "src/"}
     },
-    "autoload":{
-        "psr-0":{
-            "": ["lib/"]
-        }
+    "require": {
+        "atk4/ui": "dev-develop-ui-mk2"
     }
 }
